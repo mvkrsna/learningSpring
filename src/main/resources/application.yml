@@ -1,1 +1,8 @@
-spring.application.name=learningspring
+spring:
+  application:
+    name: learningspring
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
